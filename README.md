@@ -17,5 +17,16 @@ Basic vim configuration for reactjs
 + [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
 + [vim-prettier](https://github.com/prettier/vim-prettier)
 
+## Installation
 
+1) Install vim-plug ([instructions](https://github.com/junegunn/vim-plug))
+2) Install Prettier (run `npm i -g prettier`)
+3) Copy .vimrc to user folder.
+4) Run on vim
+
+```
+:PlugInstall
+:source %
+```
+5) Test more vim configurations and share!
 
